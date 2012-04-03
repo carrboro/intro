@@ -1,0 +1,277 @@
+/*page structure*/
+
+#container {
+	width: 1044px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #008110;
+	z-index: 900;
+}
+
+article {
+	position: relative;
+	top: 80px;
+}
+
+footer {
+	position: relative;
+	bottom: -90px;
+}
+
+#intro, #work, #resume, #interests {
+	position: relative;
+	height: 80px;
+	margin-top: -80px;
+	visibility: hidden;
+}
+
+#intro-content, #work-content, #resume-content, #interests-content {
+	padding: 20px 0px;
+	border-bottom: 1px solid #eaeaea;
+	clear: both;
+	overflow: hidden;
+}
+
+#intro-content {
+	border-top: 1px solid #eaeaea;
+}
+
+/*general styles*/
+
+body {
+	font-family: Georgia, serif;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+
+h2, #topnav {
+	font-family: Futura, "Trebuchet MS", sans-serif;
+}
+
+
+h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	line-height: 1em;
+	margin-bottom: .5em;
+	font-weight: normal
+}
+
+h2 img {
+	vertical-align: middle;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin-top: .5em;
+}
+
+a {
+	text-decoration: none;
+	color: #008110;
+	border-bottom: 1px dotted #008110;
+}
+
+/*header elements*/
+
+header {
+	text-align: center;
+	line-height: 1em;
+	color: #fff;
+}
+
+#header-content {
+	width: 1024px;
+	padding: 10px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo, #topnav, #contactinfo {
+	float: left;
+}
+
+#logo {
+	width: 40%;
+	text-align: left;
+	font-size: 2.5em;
+	overflow: visible;
+	line-height: 100%;
+}
+
+#logo a {
+	border-bottom: none;
+	color: #fff;
+}
+
+#name {
+	margin-top: 10px;
+}
+
+#topnav {
+	width: 30%;
+	text-align: right;
+	margin-left: 10%;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+header .active {
+	background-color: #30C042;
+}
+
+footer .active {
+	font-weight: bold;
+}
+
+#contactinfo {
+	width: 20%;
+	text-align: right;
+	font-size: .8em;
+}
+
+#topnav a, #topnav a:visited, #contactinfo a, #contactinfo a:visited {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+
+nav li {
+	float: left;
+	padding: 5px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#avatar, #name {
+	float: left;
+}
+
+#name {
+	padding-left: 20px;
+}
+
+.twitter img {
+	vertical-align: middle;
+}
+
+/*intro section*/
+
+#intro-content h1 {
+	display: inline-block;
+	padding-left: 90px;
+	margin: 20px 0px;
+	color: #008110;
+}
+
+#intro-content img {
+	float: right;
+	vertical-align: top;
+	padding-left: 50px;
+}
+
+#intro-content {
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+#intro-content p {
+	margin: 10px 20px;
+	padding-left: 70px;
+}
+
+#intro-content ul {
+	list-style: square inside;
+	padding-left: 70px;
+}
+
+#intro-content li {
+	margin: 10px 40px;
+}
+
+/*resume section*/
+
+#resume-left, #resume-right {
+	width: 48%;
+	float: left;
+}
+
+#resume-left {
+	padding-right: 2%;
+}
+
+#resume-right {
+	padding-left: 2%;
+}
+
+.where {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.extra {
+	font-weight: 300;
+	font-size: .85em;
+}
+
+.what {
+	padding-left: 30px;
+	text-indent: -10px;
+}
+
+/*portfolio section*/
+
+.portfolio {
+	width: 310px;
+	float: left;
+	margin: 19px;
+	text-align: center;
+}
+
+.portfolio img {
+	border: 1px solid #bababa;
+	margin-top: 5px;
+}
+
+.fancybox {
+	border: none;
+}
+
+/*interests section*/
+
+.interests {
+	width: 502px;
+	float: left; 
+	margin: 10px;
+	display: table;
+}
+
+.interests img {
+	float: left;
+	width: 350px;
+	margin-right: 20px;
+}
+
+.interests p {
+	width: 132px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
