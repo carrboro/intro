@@ -1,0 +1,3 @@
+This is my submission for Caktus's Front End Developer Project option #1. I chose this option because it was the one involving code. :-) I also thought that creating a one-page layout with navigation while maintaining clear wayfinding was an interesting challenge.
+
+The files included here are the ones I wrote for the project--I haven't included files that I got from elsewhere (such as the reset stylesheet or the lightbox script files). The one exception is scroll.js, which includes some borrowed functions and one new one (sources for the borrowed ones are included in the comments).
